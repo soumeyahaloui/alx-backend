@@ -3,6 +3,7 @@
 
 BaseCaching = __import__('base_caching').BaseCaching
 
+
 class BasicCache(BaseCaching):
     """ BasicCache class that inherits from BaseCaching """
 
@@ -26,5 +27,4 @@ class BasicCache(BaseCaching):
             The item if found, otherwise None.
         """
         return self.cache_data.get(key)
-
 
