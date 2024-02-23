@@ -26,3 +26,5 @@ class BasicCache(BaseCaching):
             The item if found, otherwise None.
         """
         return self.cache_data.get(key)
+
+
